@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Pesanan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        table {
+            width: 500px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .numeric {
+            text-align: center;
+        }
+
+        .total {
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daftar Pesanan</h1>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Rincian</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td class="numeric">1</td>
+            <td>Jersey Home Manchester United 2022/2023</td>
+            <td>Rp 848.000</td>
+        </tr>
+        <tr>
+            <td class="numeric">2</td>
+            <td>Jersey Home Arsenal 2022/2023</td>
+            <td>Rp 981.000</td>
+        </tr>
+        <tr>
+            <td class="numeric">3</td>
+            <td>Jersey Home Manchester City 2022/2023</td>
+            <td>Rp 1.010.000</td>
+        </tr>
+        <tr>
+            <td class="numeric">4</td>
+            <td>Jersey Away Chelsea 2022/2023</td>
+            <td>Rp 745.000</td>
+        </tr>
+        <tr>
+            <td class="numeric">5</td>
+            <td>Jersey Al-Nassr 2022/2023</td>
+            <td>Rp 450.000</td>
+        </tr>
+        <tr class="total">
+            <td colspan="2">Total Harga (termasuk PPN 10%)</td>
+            <td>Rp 5.742.700</td>
+        </tr>
+    </table>
+</body>
+</html>
